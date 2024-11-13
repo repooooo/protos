@@ -38,9 +38,6 @@ To generate Go code from `.proto` files using `Makefile`, you can use the `gener
    This will:
 
    - Look for `.proto` files in the `./proto` directory.
-
    - Generate Go code in the `./gen/go` directory.
-
    - Use the `--go_out` and `--go-grpc_out` options to generate the necessary files for gRPC services and messages.
-
    - The generated Go files will be placed in the `./gen/go` directory, with paths relative to the source `.proto` files.
