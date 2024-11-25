@@ -1,8 +1,6 @@
 module github.com/repooooo/protos
 
-go 1.22.7
-
-toolchain go1.23.2
+go 1.23
 
 require (
 	google.golang.org/grpc v1.68.0
